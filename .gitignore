@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# Original project files
+/crowdfunding-product-page-main
+
 # testing
 /coverage
 

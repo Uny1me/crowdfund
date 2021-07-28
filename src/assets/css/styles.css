@@ -1,0 +1,13 @@
+div {
+  /*z-index: 99;*/
+  margin-bottom: 35px;
+}
+
+img {
+  z-index: 99;
+}
+
+.navbar.navbar-light.navbar-expand-md.position-fixed.col-12 {
+  z-index: 999;
+}
+
