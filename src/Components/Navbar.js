@@ -40,11 +40,13 @@ class Nav extends Component {
 
     render() {
         return (
-            <div>
-                <nav className="navbar navbar-light navbar-expand-md position-fixed col-12 fixed-top" style={{ background: this.state.isCollapsed ? 'transparent' : 'transparent' }}>
+            <div style={{}}>
+                <nav className="navbar navbar-light navbar-expand-md position-fixed col-12 fixed-top" style={{
+                    background: this.state.isCollapsed ? 'rgba(0,0,0,.5)' : 'rgba(0,0,0,.5)'
+                }}>
 
                     <div className="container-fluid">
-                        <div className="containe w-75">
+                        < div className="containe w-75">
 
                             <img className='navbar-brand mr-auto' src={logo} alt='crowdfund' />
                         </div>
@@ -63,7 +65,7 @@ class Nav extends Component {
 
                         </div>
                     </div>
-                </nav>
+                </nav >
             </div >
         )
     }
