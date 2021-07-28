@@ -42,7 +42,7 @@ class Nav extends Component {
         return (
             <div style={{}}>
                 <nav className="navbar navbar-light navbar-expand-md position-fixed col-12 fixed-top" style={{
-                    background: this.state.isCollapsed ? 'rgba(0,0,0,.5)' : 'rgba(0,0,0,.5)'
+                    background: this.state.isCollapsed ? 'rgba(0,0,0,.1)' : 'rgba(0,0,0,.5)'
                 }}>
 
                     <div className="container-fluid">
